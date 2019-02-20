@@ -1,0 +1,33 @@
+
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+        <a class="navbar-brand" href="/">MuSiC FuSiC</a>'
+        <button class="navbar-toggler pull-xs-right" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+      </div>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse  pull-md-right" id="nav-content">   
+        <div class="navbar-nav">
+          <a *ngIf="!authService.loggedin()"  class="nav-item nav-link active"  [routerLink]="['/home']">Home</a>
+         </div>
+          <div class="navbar-nav">
+          <a  *ngIf="!authService.loggedin()" class="nav-item nav-link active"  [routerLink]="['/login']">Login</a>
+          </div>
+          <div class="navbar-nav">
+          <a *ngIf="!authService.loggedin()" class="nav-item nav-link active"  [routerLink]="['/register']">Register</a>
+          </div>
+          <div class="navbar-nav">
+              <a *ngIf="authService.loggedin()" class="nav-item nav-link active"  [routerLink]="['/profile']">Profile</a>
+          </div>
+          <div class="navbar-nav">
+              <a *ngIf="authService.loggedin()" class="nav-item nav-link active"  [routerLink]="['/dashboard']">Dashboard</a>
+          </div>
+          <div class="navbar-nav">
+             <a *ngIf="authService.loggedin()" class="nav-item nav-link active" (click)="onLogoutClick()" href="#">Logout</a>
+          </div>
+        </div>
+
+</nav>

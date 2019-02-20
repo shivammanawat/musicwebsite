@@ -1,0 +1,16 @@
+<div class="container" align="center">
+  <h2 class="page-header display-2 ">Profile</h2>
+  
+      <div *ngIf="user">
+       
+        <ul class="list-group">
+          <li class="list-group-item">Welcome {{user.username}}</li>
+        </ul>
+    </div>
+    <br>
+    <p *ngIf="authservice.loggedin()"><a class="btn btn-danger" (click)="onLogoutClick()" href="#">Logout</a></p>
+    
+
+          <a class="btn btn-success" [routerLink]="['/alltrack']">All Track</a>
+  
+  </div>

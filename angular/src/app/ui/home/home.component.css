@@ -1,0 +1,780 @@
+@media (min-width: 576px) {
+.col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50.35%;
+}
+
+.mycol {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 48.35%;
+    padding-left: 0px;
+}
+
+.fa-quote-right
+{
+  margin-left:10%;
+  width:10px;
+  color:black;
+}
+
+.quote
+{
+	margin-top:-10%;
+}
+.myflex
+{
+	height:400px;
+	width:100%;
+}
+  
+.fa-quote-left
+{
+	width:10px;
+  color:black;
+  margin-left:10%;
+}
+
+}
+
+.fa-quote-right
+{
+  margin-left:75%;
+  color:black;
+}
+
+.quote
+{
+	margin-top:8%;
+}
+
+  
+.fa-quote-left
+{
+  color:black;
+  margin-left:15%;
+}
+.rectext
+{
+	padding-top:60%;
+	padding-right:40%;
+	transform: skew(-24deg);
+	color:white;
+}
+
+  
+.rectangle {
+	height: 500px;
+	width: 60%;
+	background-color: #555;
+  }
+  .parallelogram {
+	width:80%;
+	  height: 500px;
+	  transform: skew(24deg);
+	  background: #555;
+	  margin-left:55%;
+	}
+	.mymb3 ul
+{
+	padding: 20% 25% ;
+	list-style-type: none;
+}	  
+
+
+.img-1
+{
+	padding-left:0px;
+	width:120%;
+	flex: 0 0 50%;
+    max-width: 50.35%;
+}
+.img-2
+{
+	padding-right:0px;
+	width:120%;
+	flex: 0 0 50%;
+    max-width: 52%;
+} 
+
+.mytitle h2 {
+    color:black;
+    text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+    position: relative;
+    padding-top:220px;
+}
+
+.mytitle1 h2 {
+    color:black;
+    text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+    position: relative;
+    padding-top:2px;
+}
+.mytitle
+{
+    background-image: url("https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    width:100%;
+    height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+		background-size: cover;
+  }
+
+  .mymb3
+  {
+	display: flex!important;
+	margin-bottom: 0%;
+  }
+
+ 
+.padding
+{
+	margin-bottom:50px;
+}
+
+.col-center h2 {
+	color:black;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+
+
+.text-muted{
+	font-size:2vw;
+}
+
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 5px;
+	background: #8fbc54;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding-top: 28px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #7AA641;
+}
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 20px;
+	height: 5px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+
+
+body {
+	font-size: 14px !important;
+}
+h1 {
+	font-size: 1.602em;
+}
+h2 {
+	font-size: 1.424em;
+}
+h3 {
+	font-size: 1.266em;
+}
+h4 {
+	font-size: 1.125em;
+}
+h5 {
+	font-size: 0.889em;
+}
+h6 {
+	font-size: 0.79em;
+}
+.display-1 {
+	font-size: 3.906em;
+}
+.display-2 {
+	font-size: 3.125em;
+}
+.display-3 {
+	font-size: 2.5em;
+}
+.display-4 {
+	font-size: 2em;
+}
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+	.fa-quote-right
+	{
+		margin-left:80%;
+		color:black;
+	}
+	
+	.quote
+	{
+		margin-top:17%;
+	}
+	
+		
+	.fa-quote-left
+	{
+		color:black;
+		margin-left:15%;
+	}
+  
+body {
+	font-size: 14px !important;
+}
+h1 {
+	font-size: 1.602em;
+}
+h2 {
+	font-size: 1.424em;
+}
+h3 {
+	font-size: 1.266em;
+}
+h4 {
+	font-size: 1.125em;
+}
+h5 {
+	font-size: 0.889em;
+}
+h6 {
+	font-size: 0.79em;
+}
+.display-1 {
+	font-size: 3.906em;
+}
+.display-2 {
+	font-size: 3.125em;
+}
+.display-3 {
+	font-size: 2.5em;
+}
+.display-4 {
+	font-size: 2em;
+}
+
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.fa-quote-right
+	{
+		margin-left:80%;
+		color:black;
+	}
+	
+	.quote
+	{
+		margin-top:17%;
+	}
+	
+		
+	.fa-quote-left
+	{
+		color:black;
+		margin-left:15%;
+	}
+  
+  .img-1
+{
+	padding-left:0px;
+	width:120%;
+	flex: 0 0 50%;
+    max-width: 50.35%;
+}
+.img-2
+{
+	padding-right:0px;
+	width:120%;
+	flex: 0 0 50%;
+    max-width: 52.50%;
+} 
+.rectangle {
+	height: 500px;
+	width: 60%;
+	background-color: #555;
+  }
+  .parallelogram {
+	width:80%;
+	  height: 500px;
+	  transform: skew(24deg);
+	  background: #555;
+	  margin-left:57%;
+	}
+	
+	.mymb3 ul
+	{
+		padding: 28% 19%;
+		list-style-type: none;
+	}	
+
+body {
+	font-size: 14px !important;
+}
+h1 {
+	font-size: 1.602em;
+}
+h2 {
+	font-size: 1.424em;
+}
+h3 {
+	font-size: 1.266em;
+}
+h4 {
+	font-size: 1.125em;
+}
+h5 {
+	font-size: 0.889em;
+}
+h6 {
+	font-size: 0.79em;
+}
+.display-1 {
+	font-size: 3.906em;
+}
+.display-2 {
+	font-size: 3.125em;
+}
+.display-3 {
+	font-size: 2.5em;
+}
+.display-4 {
+	font-size: 2em;
+}
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	.fa-quote-right
+	{
+		margin-left:80%;
+		color:black;
+	}
+	
+	.quote
+	{
+		margin-top:17%;
+	}
+	.mymb3 ul
+{
+  padding: 33% 16%;
+	list-style-type: none;
+}	
+
+	.fa-quote-left
+	{
+		color:black;
+		margin-left:15%;
+	}
+  
+  .img-1
+{
+	padding-left:0px;
+	width:120%;
+	flex: 0 0 50%;
+    max-width: 50.35%;
+}
+.img-2
+{
+	padding-right:0px;
+	width:120%;
+	flex: 0 0 50%;
+    max-width: 53.50%;
+} 
+.rectangle {
+	height: 500px;
+	width: 60%;
+	background-color: #555;
+  }
+  .parallelogram {
+	width:80%;
+	  height: 500px;
+	  transform: skew(18deg);
+	  background: #555;
+	  margin-left:57%;
+	}
+
+body {
+	font-size: 14px !important;
+}
+h1 {
+	font-size: 1.602em;
+}
+h2 {
+	font-size: 1.424em;
+}
+h3 {
+	font-size: 1.266em;
+}
+h4 {
+	font-size: 1.125em;
+}
+h5 {
+	font-size: 0.889em;
+}
+h6 {
+	font-size: 0.79em;
+}
+.display-1 {
+	font-size: 3.906em;
+}
+.display-2 {
+	font-size: 3.125em;
+}
+.display-3 {
+	font-size: 2.5em;
+}
+.display-4 {
+	font-size: 2em;
+}
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+/* 
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+
+  
+} */
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+	.mymb3 ul
+	{
+	padding: 75% 13%;
+	list-style-type: none;
+	font-size: 10px;
+	}
+  
+	.fa-quote-right
+	{
+		margin-left:80%;
+		color:black;
+	}
+	
+	.quote
+	{
+		margin-top:3%;
+	}
+
+
+	.fa-quote-left
+	{
+		color:black;
+		margin-left:2%;
+	}
+  
+  .img-1
+{
+	padding-left:0px;
+	width:120%;
+	flex: 0 0 50%;
+	max-width: 52.75%;
+}
+.img-2
+{
+	padding-right:0px;
+	width:120%;
+	flex: 0 0 50%;
+    max-width: 53.50%;
+} 
+.rectangle {
+	height: 500px;
+	width: 60%;
+	background-color: #555;
+  }
+  .parallelogram {
+	width:80%;
+	  height: 500px;
+	  transform: skew(11deg);
+	  background: #555;
+	  margin-left:57%;
+	}
+
+	.rectext
+	{
+		padding-top:170%;
+		padding-right:40%;
+		transform: skew(-11deg);
+		color:white;
+		font-size:20px;
+	}
+	
+body {
+	font-size: 14px !important;
+}
+h1 {
+	font-size: 1.602em;
+}
+h2 {
+	font-size: 1.424em;
+}
+h3 {
+	font-size: 1.266em;
+}
+h4 {
+	font-size: 1.125em;
+}
+h5 {
+	font-size: 0.889em;
+}
+h6 {
+	font-size: 0.79em;
+}
+.display-1 {
+	font-size: 3.906em;
+}
+.display-2 {
+	font-size: 3.125em;
+}
+.display-3 {
+	font-size: 2.5em;
+}
+.display-4 {
+	font-size: 2em;
+}
+
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+
+  .mymb3  ul {
+    padding: 57% 0%;
+    list-style-type: none;
+    font-size: 6px;
+}
+	.fa-quote-right
+	{
+		margin-left:90%;
+		color:black;
+		font-size:30%;
+
+	}
+	
+	.quote
+	{
+		margin-top: -7%;
+	}
+
+
+	.fa-quote-left
+	{
+		color:black;
+		margin-left:2%;
+		font-size:30%;
+	}
+	blockquote {
+    margin: 0 0 -1rem;
+}
+  .img-1
+{
+	padding-left:0px;
+	width:130%;
+	flex: 0 0 50%;
+ max-width: 56.75%;
+}
+.img-2
+{
+	padding-right:0px;
+	width:130%;
+	flex: 0 0 50%;
+	max-width: 55.5%;
+} 
+.rectangle {
+	height: 200px;
+	width: 60%;
+	background-color: #555;
+  }
+  .parallelogram {
+		width:80%;
+	  height: 200px;
+	  transform: skew(7deg);
+	  background: #555;
+	  margin-left:57%;
+	}
+
+	.rectext
+	{
+		padding-top:112%;
+		padding-right:40%;
+		transform: skew(-7deg);
+		color:white;
+		font-size:10px;
+	}
+	h2 {
+		font-size: 1.2em;
+	}
+	.mytitle h2 {
+    color:black;
+    text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+    position: relative;
+    padding-top:220px;
+}
+
+.mytitle1 h2 {
+    color:black;
+    text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+    position: relative;
+		padding-top:2px;
+		font-size:1.420rem;
+
+}
+.mytitle
+{
+    background-image: url("https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    width:100%;
+    height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+		background-size: cover;
+  }
+	
+body {
+	font-size: 14px !important;
+}
+h1 {
+	font-size: 1.602em;
+}
+
+h3 {
+	font-size: 1.266em;
+}
+h4 {
+	font-size: 1.125em;
+}
+h5 {
+	font-size: 0.889em;
+}
+h6 {
+	font-size: 0.79em;
+}
+.display-1 {
+	font-size: 3.906em;
+}
+.display-2 {
+	font-size: 3.125em;
+}
+.display-3 {
+	
+	font-size: .7em;
+}
+.display-4 {
+	font-size: 2em;
+}
+
+
+}

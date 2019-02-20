@@ -1,0 +1,27 @@
+
+<!-- register form -->
+<div class="parallax">
+        <div class="login-form padding">
+            <form (submit)="onRegister()">
+            <div class="avatar">
+                <i class="fas fa-user-tie fa-5x"></i>
+            </div>
+                <h2 class="text-center">Member Register</h2>   
+                <div class="form-group">
+                    <input type="text" class="form-control" name="username" placeholder="Username"  [(ngModel)]="username" required="required">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" [(ngModel)]="password"  name="password" placeholder="Password" required="required">
+                </div>        
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">SignUp</button>
+                </div>
+            <div class="clearfix">
+                    <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
+                    <!-- <a href="#" class="pull-right">Forgot Password?</a> -->
+                </div>
+                <p class="text-center large">Already have an account? <a  [routerLink]="['/login']">Sign in here!</a></p>
+            </form>
+          </div>
+          
+    </div>

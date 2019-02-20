@@ -1,0 +1,28 @@
+<div class="parallax">
+
+    <div class="login-form padding">
+            
+        <form  (submit)="onLogin()">
+        <div class="avatar">
+            <i class="fas fa-user-tie fa-5x"></i>
+        </div>
+            <h2 class="text-center">Member Login</h2>   
+            <div class="form-group">
+                <input type="text" class="form-control" name="username" placeholder="Username"  [(ngModel)]="username" required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" [(ngModel)]="password"  name="password" placeholder="Password" required="required">
+            </div>        
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+            </div>
+            <div class="clearfix">
+                <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
+                <!-- <a href="#" class="pull-right">Forgot Password?</a> -->
+            </div>
+                <p class="text-center large">Don't have an account? <a [routerLink]="['/register']">Sign up here!</a></p>
+        </form>
+                <a class="btn btn-sm btn-primary"  href="http://localhost:3000/users/auth/google">log in with google</a> 
+                <!-- <a class="btn btn-sm btn-primary" (click)="googlesign1()">log in with google</a>  -->
+      </div>
+</div>
